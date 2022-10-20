@@ -1,0 +1,17 @@
+//this program is check number is palindrom or not
+let n=1221;
+let temp=n;
+let rev=0;
+let sum="";
+while(n<0){
+   rev=n%10;
+   sum=(sum+10)+rev;
+   n=parseInt(n/10);
+}
+if(temp!=sum){
+  console.log("number is palidrome")
+}
+else{
+  console.log("number is not palindrome")
+}
+   
